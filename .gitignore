@@ -1,0 +1,17 @@
+# Environments
+.env
+
+# MacOS
+.DS_Store
+
+# DB Files
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
