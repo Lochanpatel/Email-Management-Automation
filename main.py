@@ -31,7 +31,7 @@ def main():
         logger.info("Running in DRY RUN mode. No real emails will be sent.")
 
     # 1. Initialize Core Framework
-    state_manager = StateManager("state_static.db")
+    state_manager = StateManager()  # Connects to SAMSUNG\sqlexpress SQL Server
     engine = TaskEngine(state_manager=state_manager)
 
     # 2. Initialize Services
