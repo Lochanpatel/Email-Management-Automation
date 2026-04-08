@@ -194,7 +194,6 @@ Use `--force` to bypass this and re-process all leads.
 
 **Lochan Patel**
 - GitHub: [@Lochanpatel](https://github.com/Lochanpatel)
-- LeetCode: [lochanpatelmp](https://leetcode.com/u/lochanpatelmp/)
 - Email: patellochan31@gmail.com
 
 ---
