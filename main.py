@@ -50,23 +50,6 @@ def main():
 
     body = """Dear {Name},
 
-I am writing to apply for the Software Engineer position at {Company}.
-
-I am a B.Tech student (2026) with a strong foundation in Data Structures and Algorithms, Object-Oriented Programming, and Web Development. I have hands-on experience building projects and enjoy working on real-world problems and scalable applications.
-
-I'm currently holding two offers from service-based companies, but my goal is to start my career in a strong product-based engineering environment — like {Company} — where I can properly learn system design, code quality, and real development practices.
-
-Please find my resume attached and my GitHub project link shared below:
-
-GitHub:   https://github.com/Lochanpatel
-LeetCode: https://leetcode.com/u/lochanpatelmp/
-
-Thank you for considering my application, {Name}.
-
-Best regards,
-Lochan Patel
-patellochan31@gmail.com | 7566039795"""
-
     # 3. Task
     task = StaticEmailTask(
         email_service=email_service,
